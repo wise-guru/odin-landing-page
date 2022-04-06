@@ -27,3 +27,54 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.hero {
+    color:white;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    margin: 45px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-subtext {
+    
+}
+
+button {
+
+    background: #3882F6;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    
+}
+
+.shiba {
+    display: flex;
+    height: auto;
+    width: 300px;
+}
+
+img {
+    height:165px;
+    width:250px;
+}
+
+.container {
+    display: flex;
+
+
+}
