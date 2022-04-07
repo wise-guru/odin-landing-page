@@ -7,12 +7,16 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header, .footer {
     color: white;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     padding: 32px;
+}
+
+.footer {
+    justify-content: center;
 }
 
 ul {
@@ -50,17 +54,17 @@ a {
     font-weight: 800;
 }
 
-.hero-subtext {
-    
-}
-
 button {
-
+    color: white;
     background: #3882F6;
     padding: 8px 16px;
-    border: none;
     border-radius: 8px;
-    
+    width: 100px;
+}
+
+.hero-button {
+    border: none;
+    margin-top: 16px;
 }
 
 .shiba {
@@ -81,6 +85,13 @@ img {
 
 }
 
+.head-text {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
 .info {
     display: flex;
     justify-content: center;
@@ -92,10 +103,46 @@ img {
 
 .testimonial {
     display: flex;
-    padding: 80px;
+    flex-wrap: wrap;
+    padding: 100px;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     justify-content: center;
-    margin-bottom: 50px;
+}
+
+.person {
+    display: flex;
+    justify-content: end;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    margin: 100px;
+    padding: 36px;
+    justify-content: center;
+    height: 100px;
+    width: auto;
+}
+
+.cta {  
+    font-size: 20px;
+}
+
+.cta-text {
+    
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.cta-button {
+    border: solid white;
+    justify-content: end;
+}
+
+.footer {
+    display: flex;
 }
