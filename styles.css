@@ -7,6 +7,12 @@ body {
     flex-direction: column;
 }
 
+.header-logo {
+    margin-top: -10px;
+    height: 90px;
+    width: 120px;
+}
+
 .header, .footer {
     color: white;
     background-color: #1F2937;
@@ -104,17 +110,24 @@ img {
 
 .testimonial {
     display: flex;
-    flex-wrap: wrap;
     padding: 100px;
+    flex-wrap: wrap;
     background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    
+}
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 200;
 }
 
 .person {
-    display: flex;
-    justify-content: end;
+    font-weight: 700; 
+    padding-left: 600px;
 }
 
 .action {
