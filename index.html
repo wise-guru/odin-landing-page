@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="header">
-        <img class="header-logo" src="./img/logo.png" alt="header logo">
+        <img class="header-logo" src="./img/raccoon-logo.png" alt="Raccoon header logo">
         
         <ul class="header-links">
             <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About</a></li>
@@ -63,6 +63,15 @@
     <div class="footer">
         Copyright © Rockin' Animals 2022
     </div>
-
+    <script>
+        const signupBtns = document.querySelectorAll('button')
+        signupBtns.forEach((btn) => {
+            btn.addEventListener('click', function() {
+                location.href='https://wise-guru.github.io/sign-up-form/'
+            })
+        })
+    
+    </script>
 </body>
+
 </html>

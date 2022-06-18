@@ -9,8 +9,8 @@ body {
 
 .header-logo {
     margin-top: -10px;
-    height: 90px;
-    width: 120px;
+    height: 45px;
+    width: 60px;
 }
 
 .header, .footer {
@@ -22,6 +22,7 @@ body {
 }
 
 .footer {
+    display: flex;
     justify-content: center;
 }
 
@@ -66,6 +67,15 @@ button {
     padding: 8px 16px;
     border-radius: 8px;
     width: 100px;
+}
+
+button:hover {
+    background: #5193ff;
+    cursor: pointer;
+}
+
+button:active {
+    background: #3882F6;
 }
 
 .hero-button {
@@ -158,8 +168,4 @@ img {
     border: solid white;
   
 
-}
-
-.footer {
-    display: flex;
 }
